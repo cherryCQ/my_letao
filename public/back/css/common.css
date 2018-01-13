@@ -103,3 +103,7 @@ html,body {
   width: 45%;
   height: 400px;
 }
+.lt_content .table.table-bordered td{
+  text-align: center;
+  vertical-align: middle;
+}
