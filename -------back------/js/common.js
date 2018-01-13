@@ -48,7 +48,6 @@ $(function () {
 
   //侧边栏显示隐藏
   $(".icon_menu").on("click", function () {
-
     //让侧边栏隐藏
     //主体部分padding-left:0
     $(".lt_aside").toggleClass("now");

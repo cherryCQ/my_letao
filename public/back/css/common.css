@@ -26,6 +26,10 @@ html,body {
   position: absolute;
   top: 0;
   left: 0;
+  transition: all 1s;
+}
+.lt_aside.now {
+  left: -180px;
 }
 .lt_aside .brand a {
   display: block;
@@ -66,6 +70,9 @@ html,body {
   background-color: #000;
   border-left-color: blue;
 }
+.lt_aside .nav .second {
+  display: none;
+}
 .lt_aside .nav .second a {
   padding-left: 60px;
 }
@@ -74,6 +81,10 @@ html,body {
   padding-left: 180px;
   height: 100%;
   /*background-color: pink;*/
+  transition: all 1s;
+}
+.lt_container.now {
+  padding-left: 0px;
 }
 .lt_container .header {
   height: 50px;
@@ -87,5 +98,8 @@ html,body {
 }
 .lt_container .breadcrumb {
   margin-top: 20px;
-  margin-left: 15px;
+}
+.chart_left,.chart_right {
+  width: 45%;
+  height: 400px;
 }
