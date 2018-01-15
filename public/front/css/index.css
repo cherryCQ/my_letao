@@ -1,0 +1,8 @@
+.lt_nav {
+  padding: 10px;
+}
+
+.lt_nav li {
+  float: left;
+  width: 33.33%;
+}

@@ -39,10 +39,10 @@ $(function () {
         // 1. 分页的盒子必须是ul元素
         // 2. 还需要指定一个属性：bootstrapMajorVersion指定bootstrap的版本
         $("#paginator").bootstrapPaginator({
-          bootstrapMajorVerssion: 3,//设置bootstrap的版本
+          bootstrapMajorVersion: 3,//设置bootstrap的版本
           currentPage: page,//设置当前页
           totalPages: Math.ceil(info.total / info.size),//设置总页数,根据返回结果的总条数/每页的条数
-          numberOfPages: 5,//控件上显示的条数
+          numberOfPages: 5,//空间上显示的条数
           onPageClicked: function (a, b, c, p) {
             //让当前页码变成p
             page = p;

@@ -43,6 +43,7 @@ $(function () {
     //主体部分padding-left：0
     $(".lt_aside").toggleClass("now");
     $(".lt_container").toggleClass("now");
+    $(".header").toggleClass("now");
   })
 
   //退出功能

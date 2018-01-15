@@ -3,7 +3,7 @@
  */
 $(function () {
   var page = 1; //记录页码
-  var pageSize = 5;  //每页的条数
+  var pageSize = 10;  //每页的条数
 
   function render() {
     $.ajax({
@@ -34,6 +34,7 @@ $(function () {
 
   render();
 
+  //2. 添加，显示模态框
   $('.btn_add').on("click",function () {
       $('#addModal').modal("show");
   });
